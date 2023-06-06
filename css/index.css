@@ -1,0 +1,133 @@
+*{
+    font-family: 'Roboto', sans-serif;}
+body{
+    background-color: #F5EFE7;
+}
+img{
+    border-radius: 30px;
+    height: 60vh;
+    width: 100%;
+    
+   
+}
+.imgs{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.linkss{
+    border: 1px solid black;
+    margin: 20px 20px;
+    padding: 15px;
+    border-radius: 10px 15px;
+    transition: 1s;
+}
+.linkss:hover{
+    background-color: #213555;
+}
+.links:hover{
+    background-color: #213555;
+}
+.links:hover a{
+    color: #4F709C;
+}
+.linkss:hover a{
+    color: #4F709C 
+}
+p{
+    font-size: large;
+}
+.search{
+    border:1px solid #4F709C;
+    margin: auto;
+    border-radius: 25px;
+    height: 30px;
+    width: 90%;
+    background-color: #4F709C;
+    color: white;
+    /* padding: 30px; */
+
+}
+.circle {
+    margin: auto;
+    background: lightblue;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 11%;
+    left: 28%;
+}
+.card{
+    height: 33vh;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+.card:hover{
+    background-color: #213555;
+    color: #F5EFE7;
+}
+.canvass{
+    width: 50%;
+    height: 200px;
+}
+.clips{
+    width: 260px;
+    height: 100px;
+    padding: 10px;
+    background-color:#213555;
+    color: #F5EFE7;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 62% 75%, 50% 99%, 38% 75%, 0% 75%);
+    transition: 0.5s;
+
+   
+
+}
+.clips:hover{
+    transform: scale(3,1);
+}
+.links{
+    border: 1px solid black;
+    margin: 20px 20px;
+    padding: 15px;
+    border-radius: 10px 15px;
+    transition: 1s;
+}
+.space{
+    width: 50px;
+    height: 15px;
+    border: solid 1px #FF4069;
+    background-color: #FF4069;
+}
+.space1{
+    width: 50px;
+    height: 15px;
+    border: solid 1px #059BFF;
+    background-color: #059BFF;
+}
+.space2{
+    width: 50px;
+    height: 15px;
+    border: solid 1px #A77EF6;
+    background-color: #A77EF6;
+}
+.space3{
+    width: 50px;
+    height: 15px;
+    border: solid 1px yellow;
+    background-color: yellow;
+}
+.space4{
+    width: 50px;
+    height: 15px;
+    border: solid 1px #95A1AF;
+    background-color: #95A1AF;
+}
